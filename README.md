@@ -1,0 +1,2 @@
+# CPU-Usage-Monitor-Tool-For-Arista-Switches
+A simple python application to monitor the CPU utilization on Arista switches. This application will connect to a network device i.e., Arista switch via SSH. Then the CPU utilization will be obtained by querying the switch using a specific command. Next the application will extract the value of this parameter using regular expressions and saves it in a local file system which will then be used by the graph builder to display the information on a graph.
